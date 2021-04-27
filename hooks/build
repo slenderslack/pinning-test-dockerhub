@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t $IMAGE_NAME --build-arg VCS_REF=$SOURCE_COMMIT .
+docker build -t $IMAGE_NAME --build-arg VCS_REF=$SOURCE_COMMIT --build-arg REVISION=$SOURCE_COMMIT .
 
