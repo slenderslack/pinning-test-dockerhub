@@ -1,1 +1,1 @@
-console.log("hello world 0123");
+console.log("{:version 3}");
