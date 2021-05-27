@@ -1,1 +1,1 @@
-console.log("{:version 35}");
+console.log("{:version 36}");
