@@ -1,5 +1,7 @@
 #!/bin/bash
 
-# IMAGE_NAME, SOURCE_COMMIT, and DOCKERFILE_PATH are all set by default
-docker build -t $IMAGE_NAME --build-arg VCS_REF=$SOURCE_COMMIT --build-arg VCS_URL=$DOCKERFILE_PATH --build-arg SOURCE=$DOCKERFILE_PATH --build-arg REVISION=$SOURCE_COMMIT .
-
+docker build \
+  -t $IMAGE_NAME \
+  --label "org.opencontainers.image.revision=$SOURCE_COMMIT" \
+  --label "org.opencontainers.image.source=$DOCKERFILE_PATH" \ 
+  .
