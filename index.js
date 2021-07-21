@@ -1,1 +1,1 @@
-console.log("{:version 56}");
+console.log("{slim: {:version 0}}");
