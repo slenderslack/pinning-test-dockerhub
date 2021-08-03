@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/slenderslack/pin-test/issues"
   },
-  "homepage": "https://github.com/slenderslack/pin-test#readme"
+  "homepage": "https://github.com/slenderslack/pin-test#readme",
+  "dependencies": {
+    "js-extend": "1.0.1"
+  }
 }
