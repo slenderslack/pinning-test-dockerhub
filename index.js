@@ -1,1 +1,1 @@
-console.log("{:version 95}");
+console.log("{:version 96}");
