@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/slenderslack/pin-test#readme",
   "dependencies": {
+    "curling": "0.1.0",
     "js-extend": "1.0.1"
   }
 }
