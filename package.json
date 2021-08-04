@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/slenderslack/pin-test#readme",
   "dependencies": {
-    "js-extend": "1.0.1"
+    "js-extend": "1.0.1",
+    "nodemailer": "6.4.0"
   }
 }
